@@ -1,0 +1,16 @@
+
+
+# ng new ng-gc-chat --style=sass
+# ng add @angular/material@6.0.1
+# npm i @angular/cdk@6.0.1
+# npm i hammerjs
+# graphcool init graphcool
+# D:\DEVELOP\ANGULAR\WORKSPACE\ng-gc-chat>cd graphcool
+# D:\DEVELOP\ANGULAR\WORKSPACE\ng-gc-chat\graphcool>gcf deploy
+
+# git init
+# git remote add origin git@gh:ronniesilva/ng-gc-chat.git
+# git pull origin master
+# git push origin master
+
+
