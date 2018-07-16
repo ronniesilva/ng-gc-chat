@@ -1,7 +1,7 @@
-1 gerei a chave
+﻿1 gerei a chave
     $ ssh-keygen -t rsa -C "ronniefsilva@gmail.com"
 2 adicionei a chave ssa id_rsa.pub no site github.com
-3 gerei o arquivo config (este arquivo)
+3 Gerar o arquivo "config" (sem extensão) e colocar o conteúdo abaixo, colocar na pasta "~/.ssh/":
 
     # Config Github (default)
     Host gh
@@ -9,7 +9,7 @@
     User git
     IdentityFile ~/.ssh/Id_rsa
 
-4 rodei o comando na pasta ~/.ssh/
+4 Rodar o comando na pasta ~/.ssh/
     $ ssh-add id_rsa
     
     ps: se receber a mensagem "Could not open a connection to your authentication agent."
